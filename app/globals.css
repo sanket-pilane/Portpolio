@@ -1,2 +1,84 @@
+@import "tailwindcss";
 
-@tailwind utilities;
+/* Define design tokens using @theme (Tailwind v4) */
+@theme {
+  --radius: 0.5rem;
+
+  /* Font */
+  --font-display: 'Satoshi', sans-serif;
+
+  /* color: Black palette */
+  --color-black: #000;
+  --color-black-100: #000319;
+  --color-black-200: rgba(17, 25, 40, 0.75);
+  --color-black-300: rgba(255, 255, 255, 0.125);
+
+  /* color: White palette */
+  --color-white: #fff;
+  --color-white-100: #BEC1DD;
+  --color-white-200: #C1C2D3;
+
+  /* color: Blue */
+  --color-blue-100: #E4ECFF;
+
+  /* color: Purple */
+  --color-purple: #CBACF9;
+
+  /* color: HSL tokens */
+  --color-border: 0 0% 90%;
+  --color-input: 0 0% 96%;
+  --color-ring: 240 5% 64%;
+  --color-background: 0 0% 100%;
+  --color-foreground: 222 47% 11%;
+
+  --color-primary: 222 47% 11%;
+  --color-primary-foreground: 0 0% 100%;
+
+  --color-secondary: 210 40% 96%;
+  --color-secondary-foreground: 222 47% 11%;
+
+  --color-destructive: 0 100% 50%;
+  --color-destructive-foreground: 0 0% 100%;
+
+  --color-muted: 210 40% 96%;
+  --color-muted-foreground: 215 20% 40%;
+
+  --color-accent: 210 40% 96%;
+  --color-accent-foreground: 222 47% 11%;
+
+  --color-popover: 0 0% 100%;
+  --color-popover-foreground: 222 47% 11%;
+
+  --color-card: 0 0% 100%;
+  --color-card-foreground: 222 47% 11%;
+}
+
+/* Define animation tokens */
+@theme inline {
+  --animate-spotlight: spotlight 2s ease 0.75s 1 forwards;
+}
+
+/* Base styles */
+@layer base {
+  html {
+    font-family: var(--font-display);
+  }
+
+  :root {
+    --lg: var(--radius);
+    --md: calc(var(--radius) - 2px);
+    --sm: calc(var(--radius) - 4px);
+  }
+}
+
+/* Keyframes */
+@keyframes spotlight {
+  0% {
+    opacity: 0;
+    transform: translate(-72%, -62%) scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, -40%) scale(1);
+  }
+}
