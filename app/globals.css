@@ -5,7 +5,7 @@
   --radius: 0.5rem;
 
   /* Font */
-  --font-display: 'Satoshi', sans-serif;
+  --font-display: "Satoshi", sans-serif;
 
   /* color: Black palette */
   --color-black: #000;
@@ -15,14 +15,14 @@
 
   /* color: White palette */
   --color-white: #fff;
-  --color-white-100: #BEC1DD;
-  --color-white-200: #C1C2D3;
+  --color-white-100: #bec1dd;
+  --color-white-200: #c1c2d3;
 
   /* color: Blue */
-  --color-blue-100: #E4ECFF;
+  --color-blue-100: #e4ecff;
 
   /* color: Purple */
-  --color-purple: #CBACF9;
+  --color-purple: #cbacf9;
 
   /* color: HSL tokens */
   --color-border: 0 0% 90%;
@@ -56,6 +56,47 @@
 /* Define animation tokens */
 @theme inline {
   --animate-spotlight: spotlight 2s ease 0.75s 1 forwards;
+  --animate-first: moveVertical 30s ease infinite;
+  --animate-second: moveInCircle 20s reverse infinite;
+  --animate-third: moveInCircle 40s linear infinite;
+  --animate-fourth: moveHorizontal 40s ease infinite;
+  --animate-fifth: moveInCircle 20s ease infinite;
+
+  @keyframes moveHorizontal {
+    0% {
+      transform: translateX(-50%) translateY(-10%);
+    }
+    50% {
+      transform: translateX(50%) translateY(10%);
+    }
+    100% {
+      transform: translateX(-50%) translateY(-10%);
+    }
+  }
+
+  @keyframes moveInCircle {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(180deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes moveVertical {
+    0% {
+      transform: translateY(-50%);
+    }
+    50% {
+      transform: translateY(50%);
+    }
+    100% {
+      transform: translateY(-50%);
+    }
+  }
 }
 
 /* Base styles */
