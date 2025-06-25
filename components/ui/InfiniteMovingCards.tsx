@@ -2,6 +2,8 @@
 
 import { cn } from "@/lib/utils";
 import React, { useEffect, useState } from "react";
+import MagicButton from "./MagicButton";
+import { FaLocationArrow } from "react-icons/fa6";
 
 export const InfiniteMovingCards = ({
     items,
@@ -14,6 +16,9 @@ export const InfiniteMovingCards = ({
         quote: string;
         name: string;
         title: string;
+        link: string;
+        img: string;
+
     }[];
     direction?: "left" | "right";
     speed?: "fast" | "normal" | "slow";
@@ -87,11 +92,11 @@ export const InfiniteMovingCards = ({
             >
                 {items.map((item, idx) => (
                     <li
-                        className="relative w-[90vw] max-w-full shrink-0 rounded-2xl border border-b-0 border-slate-800  p-5 md:p-16 md:w-[60vw] dark:border-zinc-700 dark:bg-[linear-gradient(180deg,#27272a,#18181b)]"
+                        className="relative w-[90vw] max-w-full shrink-0 rounded-2xl border border-b-0 border-slate-800 p-5 md:p-16 md:w-[60vw] dark:border-zinc-700 dark:bg-[linear-gradient(180deg,#27272a,#18181b)]"
                         key={idx}
                         style={{
-                            background: 'rgba(4,7,29',
-                            backgroundColor: "linear-gradient(90deg, rgba(4, 7, 29, 1) 0 %, rgba(12, 14, 35, 1) 100 %)",
+                            background: 'rgba(4,7,29)',
+                            backgroundColor: "linear-gradient(90deg, rgba(4, 7, 29, 1) 0%, rgba(12, 14, 35, 1) 100%)",
                         }}
                     >
                         <blockquote>
@@ -105,11 +110,16 @@ export const InfiniteMovingCards = ({
                             <div className="relative z-20 mt-6 flex flex-row items-center">
                                 <span className="flex flex-col gap-1">
                                     <div className="me-3">
-                                        <img src="/profile.svg" alt="profile" />
+                                        <div className="flex items-center justify-center w-16 h-16 rounded-full bg-white">
+                                            <img
+                                                src={item.img}
+                                                alt="certificate"
+                                                className="w-14 h-14 object-contain"
+                                            />
+                                        </div>
                                     </div>
-
                                     <div className="flex flex-col gap-1">
-                                        <span className="text-lg leading-[1.6]  text-white font-bold dark:text-white">
+                                        <span className="text-lg leading-[1.6] text-white font-bold dark:text-white">
                                             {item.name}
                                         </span>
                                         <span className="text-sm leading-[1.6] font-normal text-neutral-500 dark:text-white-200">
@@ -118,10 +128,21 @@ export const InfiniteMovingCards = ({
                                     </div>
                                 </span>
                             </div>
+
+                            <div className="absolute bottom-14 right-4">
+                                <a href={item.link} target="_blank" rel="noopener noreferrer">
+                                    <MagicButton
+                                        title="View Certificate"
+                                        icon={<FaLocationArrow />}
+                                        position="left"
+                                    />
+                                </a>
+                            </div>
                         </blockquote>
                     </li>
                 ))}
             </ul>
         </div>
+
     );
 };

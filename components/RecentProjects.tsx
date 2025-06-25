@@ -1,7 +1,7 @@
 import { projects } from '@/data'
 import React from 'react'
 import { PinContainer } from './ui/3d-pin'
-import { FaLocationArrow } from 'react-icons/fa6'
+import { FaGithub, FaLocationArrow } from 'react-icons/fa6'
 
 const RecentProjects = () => {
     return (
@@ -14,7 +14,7 @@ const RecentProjects = () => {
             <div className='flex flex-wrap items-center justify-center p-4 gap-x-24  gap-y-8 mt-10'>
                 {projects.map(({ id, title, des, img, iconLists, link }) => (
                     <div key={id} className='lg:min-h-[32.5rem] sm:h-[41rem]  h-[32rem] flex items-center justify-center sm:w-[570px] w-[80vw]'>
-                        <PinContainer title={link} href={link} >
+                        <PinContainer title="Explore More" href={link} >
                             <div className='relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden h-[30vh] sm:h-[40vh] mb-10'>
                                 <div className='relative h-full w-full overflow-hidden lg:rounded-3xl bg-[#13162d] '>
                                     <img src='./bg.png' alt="bg.png" />
@@ -37,8 +37,8 @@ const RecentProjects = () => {
                                 </div>
 
                                 <div className='flex justify-center items-center'>
-                                    <p className='flex lg:text-xl  md:text-xs text-sm text-purple'>Check out live </p>
-                                    <FaLocationArrow className='ms-3 ' color='#CBACF9' />
+                                    <p className='flex lg:text-xl  md:text-xs text-sm text-purple'>Check out on Github </p>
+                                    <FaGithub className='ms-3 ' color='#CBACF9' />
                                 </div>
                             </div>
                         </PinContainer>

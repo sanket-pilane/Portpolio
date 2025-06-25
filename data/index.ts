@@ -84,7 +84,7 @@ export const projects = [
       ,
       "/figma.svg",
     ],
-    link: "LINK",
+    link: "https://github.com/sanket-pilane/Brainwave--Flutter",
   },
   {
     id: 2,
@@ -101,7 +101,7 @@ export const projects = [
       ,
       "/figma.svg",
     ],
-    link: "LINK",
+    link: "https://github.com/sanket-pilane/Brainwave",
   },
   {
     id: 3,
@@ -109,7 +109,7 @@ export const projects = [
     des: "Created a sleek and responsive website showcasing modern UI/UX principles, animations, and design aesthetics using React.js, Tailwind CSS, and Vite as the build tool.",
     img: "/modern.png",
     iconLists: ["/vite.svg", "/re.svg", "/tail.svg", "/git.svg", "/figma.svg"],
-    link: "LINK",
+    link: "https://github.com/sanket-pilane/A-Modern-Ai-Platfrom--Frontend",
   },
   {
     id: 4,
@@ -124,7 +124,7 @@ export const projects = [
       "/git.svg",
       "/figma.svg",
     ],
-    link: "LINK",
+    link: "https://github.com/sanket-pilane/Chatgpt-clone",
   },
   {
     id: 5,
@@ -132,7 +132,7 @@ export const projects = [
     des: "Designed and developed a Flutter-based app for exploring luxury cars with pricing and ratings, gaining experience in UI design, state management, and Flutter animations.",
     img: "/lovely.png",
     iconLists: ["/flutter.svg", "/firebase.svg", "/git.svg", "/figma.svg"],
-    link: "LINK",
+    link: "https://github.com/sanket-pilane/Lovely-Autos-Flutter-App",
   },
   {
     id: 6,
@@ -140,40 +140,50 @@ export const projects = [
     des: "Launched a pre-built food delivery app with Flutter and Firebase, featuring email authentication, real-time order tracking, payment processing, and receipt generation.",
     img: "/minimal.png",
     iconLists: ["/flutter.svg", "/firebase.svg", "/git.svg", "/figma.svg"],
-    link: "LINK",
+    link: "https://github.com/sanket-pilane/Minimal-Food-Delivery-App",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "The NPTEL Cloud Computing certification provided a comprehensive understanding of cloud service models, deployment strategies, and scalability solutions. This program greatly enhanced my knowledge of cloud-native architecture, AWS services, and virtualization techniques, preparing me for real-world cloud projects.",
+    name: "Cloud Computing - NPTEL",
+    title: "NPTEL (Jan 2025 - Apr 2025)",
+    link: "LINK",
+    img: "/nptel.svg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "The Java certification equipped me with strong foundational and advanced knowledge in Java programming, covering object-oriented concepts, collections, multithreading, exception handling, and JDBC. This course strengthened my backend development skills and improved my problem-solving approach in Java-centric environments.",
+    name: "Java Programming",
+    title: "Lovely Professional University (Jul 2022 - Sep 2022)",
+    link: "LINK",
+    img: "/lpu.svg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "This Flutter certification introduced me to the essentials of cross-platform mobile app development. It covered Dart programming, widget tree management, and state handling. The hands-on projects and UI building techniques helped me develop scalable and responsive mobile applications with Flutter.",
+    name: "Flutter App Development",
+    title: "Lovely Professional University (Oct 2022 - Dec 2022)",
+    link: "LINK",
+    img: "/udemy.svg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "The Next.js certification deepened my understanding of server-side rendering, static site generation, and API routes within a React framework. Through this program, I gained proficiency in creating fast, SEO-friendly, and scalable web applications with Next.js and Tailwind CSS integration.",
+    name: "Next.js Full Stack Development",
+    title: "Lovely Professional University (Mar 2023 - May 2023)",
+    link: "LINK",
+    img: "/lpu.svg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "The Full Stack Development course offered a broad understanding of both frontend and backend technologies. I built several projects covering technologies like Node.js, React, REST APIs, MongoDB, and deployment processes. This course strengthened my ability to manage end-to-end web application development.",
+    name: "Full Stack Development",
+    title: "Lovely Professional University (Jan 2023 - Apr 2023)",
+    link: "LINK",
+    img: "/lpu.svg",
   },
 ];
 
@@ -213,31 +223,31 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Frontend Development",
+    desc: "React.js, Next.js, Tailwind CSS, JavaScript, HTML, CSS",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/frontend.png",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    title: "Mobile App Development",
+    desc: "Flutter, Dart, Flutter Bloc, Firebase, Cloud Functions",
+    className: "md:col-span-2 w-20",
+    thumbnail: "/mobile.png",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    title: "Backend Development",
+    desc: "Node.js, Express.js, FastAPI, Flask, TypeScript, PostgreSQL, Prisma ORM, Stripe API, Shiprocket API",
+    className: "md:col-span-2",
+    thumbnail: "/backend.png",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Cloud & DevOps",
+    desc: "Cloud Computing, GitHub Actions, Docker, CI/CD, Linux",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/cloud.png ",
   },
 ];
 
