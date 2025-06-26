@@ -5,6 +5,9 @@ const nextConfig: NextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  turbo: {
+    enabled: false,
+  },
 };
 
 export default nextConfig;
