@@ -247,7 +247,7 @@ export const workExperience = [
     title: "Cloud & DevOps",
     desc: "Cloud Computing, GitHub Actions, Docker, CI/CD, Linux",
     className: "md:col-span-2",
-    thumbnail: "/cloud.png ",
+    thumbnail: "/cloud.png",
   },
 ];
 
