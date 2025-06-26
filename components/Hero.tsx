@@ -36,8 +36,8 @@ const Hero = () => {
                     <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
                         Hi, I&apos;m Sanket, a Full Stack Developer
                     </p>
-                    <a href="#about">
-                        <MagicButton title="Show my work" icon={<FaLocationArrow />} position='right' />
+                    <a href="https://drive.google.com/file/d/1W9BbYFwrUkkMp7plCkan93mveHuGKpvc/view?usp=sharing" target='_blank'>
+                        <MagicButton title="Get my Resume" icon={<FaLocationArrow />} position='right' />
                     </a>
                 </div>
             </div>

@@ -150,7 +150,7 @@ export const testimonials = [
       "The NPTEL Cloud Computing certification provided a comprehensive understanding of cloud service models, deployment strategies, and scalability solutions. This program greatly enhanced my knowledge of cloud-native architecture, AWS services, and virtualization techniques, preparing me for real-world cloud projects.",
     name: "Cloud Computing - NPTEL",
     title: "NPTEL (Jan 2025 - Apr 2025)",
-    link: "LINK",
+    link: "https://drive.google.com/file/d/1e-vBY8UficYwGUK1w1FQifAOTx73Ty5c/view?usp=sharing",
     img: "/nptel.svg",
   },
   {
@@ -158,7 +158,7 @@ export const testimonials = [
       "The Java certification equipped me with strong foundational and advanced knowledge in Java programming, covering object-oriented concepts, collections, multithreading, exception handling, and JDBC. This course strengthened my backend development skills and improved my problem-solving approach in Java-centric environments.",
     name: "Java Programming",
     title: "Lovely Professional University (Jul 2022 - Sep 2022)",
-    link: "LINK",
+    link: "https://drive.google.com/file/d/1DFqwmFbtkR5fq4cQnd03bRpt0NYTjsRL/view?usp=sharing",
     img: "/lpu.svg",
   },
   {
@@ -166,7 +166,7 @@ export const testimonials = [
       "This Flutter certification introduced me to the essentials of cross-platform mobile app development. It covered Dart programming, widget tree management, and state handling. The hands-on projects and UI building techniques helped me develop scalable and responsive mobile applications with Flutter.",
     name: "Flutter App Development",
     title: "Lovely Professional University (Oct 2022 - Dec 2022)",
-    link: "LINK",
+    link: "https://drive.google.com/file/d/1P3PSxWfVjeEsmVPAk452-VzhUavDRu5D/view?usp=sharing",
     img: "/udemy.svg",
   },
   {
@@ -254,14 +254,17 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    img: "/github.svg",
+    link: "https://github.com/sanket-pilane",
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/sanket-pilane/",
   },
 ];
