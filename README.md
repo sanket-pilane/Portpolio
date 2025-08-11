@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portpolio
 
-## Getting Started
+A modern developer portfolio built with [Next.js](https://nextjs.org), featuring interactive UI, 3D graphics, and a beautiful, responsive design.
 
-First, run the development server:
+## 🚀 Tech Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Framework:** [Next.js 15](https://nextjs.org/)
+- **Language:** TypeScript, React 19
+- **Styling:** Tailwind CSS 4, PostCSS, CSS Modules
+- **3D & Animation:** three.js, @react-three/fiber, @react-three/drei, react-lottie, GSAP
+- **UI/UX:** Custom components, motion, next-themes (dark/light mode)
+- **Icons:** react-icons
+- **Other:** mini-svg-data-uri, clsx, tailwind-merge
+
+## ✨ Features
+
+- ⚡ **Lightning Fast:** Powered by Next.js 15 and Turbopack for instant reloads and builds.
+- 🎨 **Modern UI:** Custom components for Hero, Footer, Experience, Clients, Recent Projects, and more.
+- 🌗 **Dark/Light Mode:** Seamless theme switching with next-themes.
+- 🌍 **3D Globe & Animations:** Interactive globe and animated effects using three.js and react-lottie.
+- 🧩 **Reusable UI:** Modular components in `components/ui` for easy customization.
+- 📱 **Responsive Design:** Looks great on all devices.
+- 🛠️ **Developer Experience:** ESLint, TypeScript, and Tailwind for robust, maintainable code.
+- 🖼️ **Rich Media:** SVGs, PNGs, GIFs, and more in the `public/` folder.
+
+## 📁 Project Structure
+
+```
+portpolio/
+  app/            # Next.js app directory (pages, layout, providers)
+  components/     # UI and feature components
+    ui/           # Reusable UI elements (3D, animation, effects)
+  data/           # Static data (JSON, TypeScript)
+  lib/            # Utility functions
+  public/         # Static assets (images, SVGs, GIFs)
+  styles/         # Global and component styles
+  ...
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Getting Started
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Install dependencies:**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-## Learn More
+2. **Run the development server:**
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. **Open your browser:**
+   Visit [http://localhost:3000](http://localhost:3000)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🧩 Customization
 
-## Deploy on Vercel
+- Edit `app/page.tsx` to change the main page.
+- Add or modify components in `components/` and `components/ui/`.
+- Update styles in `app/globals.css` or use Tailwind classes.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📦 Scripts
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `npm run dev` – Start development server
+- `npm run build` – Build for production
+- `npm run start` – Start production server
+- `npm run lint` – Run ESLint
+
+## 🌐 Deployment
+
+Deploy easily on [Vercel](https://vercel.com/) or any platform supporting Next.js.
+
+## 📚 Learn More
+
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Tailwind CSS Docs](https://tailwindcss.com/docs)
+- [three.js Docs](https://threejs.org/docs/)
+
+---
+
+> Crafted with ❤️ by sanket-pilane
