@@ -81,7 +81,6 @@ export const projects = [
       "/firebase.svg",
       "/git.svg",
       "/docker.svg",
-      ,
       "/figma.svg",
     ],
     link: "https://github.com/sanket-pilane/Brainwave--Flutter",
@@ -98,7 +97,6 @@ export const projects = [
       "/openai.svg",
       "/git.svg",
       "/docker.svg",
-      ,
       "/figma.svg",
     ],
     link: "https://github.com/sanket-pilane/Brainwave",
@@ -142,8 +140,39 @@ export const projects = [
     iconLists: ["/flutter.svg", "/firebase.svg", "/git.svg", "/figma.svg"],
     link: "https://github.com/sanket-pilane/Minimal-Food-Delivery-App",
   },
+  {
+    id: 7,
+    title: "SaaS Subscription Billing System",
+    des: "A secure backend for SaaS subscription billing using Node.js, Stripe, and MongoDB, featuring JWT authentication, role-based access, and webhook integration.",
+    img: "/saas_biling.svg", // The image I generated for you
+    iconLists: ["/node.svg", "/mongodb.svg", "/stripe.svg", "/jwt.svg"],
+    link: "https://github.com/sanket-pilane/Node-JS-Tut/tree/main/Projects/SaaS%20Subscription%20api", // Add your GitHub link here
+  },
+  {
+    id: 8,
+    title: "Contact Management System",
+    des: "A secure RESTful API for contact management built with Node.js, Express, and MongoDB, featuring JWT authentication and password hashing with bcrypt.",
+    img: "/contact.svg", // The image I generated for you
+    iconLists: ["/node.svg", "/express.svg", "/mongodb.svg", "/jwt.svg"],
+    link: "https://github.com/sanket-pilane/Node-JS-Tut/tree/main/Projects/ContactManagementSystem", // Add your GitHub link here
+  },
+  {
+    id: 9,
+    title: "Brainwave AI Backend",
+    des: "A SaaS AI backend powering chat, code, and media generation by integrating OpenAI, Gemini, and Replicate models via a RESTful API.",
+    img: "/brainwave_backend.svg", // The image I generated for you
+    iconLists: ["/node.svg", "/node.svg", "/openai.svg", "/gemini.svg"],
+    link: "https://github.com/sanket-pilane/Node-JS-Tut/tree/main/Projects/Brainwave",
+  },
+  {
+    id: 10,
+    title: "ChargeSpot Navigator",
+    des: "A smart EV charging app to locate, book, and manage stations, featuring an AI assistant for personalized recommendations.",
+    img: "/chargespot.png",
+    iconLists: ["/next.svg", "/firebase.svg", "/gemini.svg", "/tail.svg"],
+    link: "https://github.com/sanket-pilane/studio",
+  },
 ];
-
 export const testimonials = [
   {
     quote:

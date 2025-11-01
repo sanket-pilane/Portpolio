@@ -34,7 +34,7 @@ const Hero = () => {
                     <h2 className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-80'>Dynamic Web magic with next js </h2>
                     <TextGenerateEffect className='text-center text-[40px] md:text-5xl lg:text-6xl' words='Transforming Concepts into Seamless User Experiences ' />
 
-                    <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
+                    <div className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
                         Hi, I&apos;m Sanket, a <ContainerTextFlip words={[
                             "Full Stack Developer",
                             "Flutter App Developer",
@@ -44,8 +44,8 @@ const Hero = () => {
                             "Cloud & DevOps Learner",
                         ]}
                             textClassName='text-xl' className='h-10 ' />
-                    </p>
-                    <a href="https://drive.google.com/file/d/172y3iJw8H0MJ8ueKLd3n5AcOJUeEzmSO/view?usp=sharing" target='_blank'>
+                    </div>
+                    <a href="https://drive.google.com/file/d/1xTYk1AzYl5s9cwtUpx4Bt524_HurdDt_/view?usp=sharing" target='_blank'>
                         <MagicButton title="Get my Resume" icon={<FaLocationArrow />} position='right' />
                     </a>
                 </div>
