@@ -45,7 +45,7 @@ const Hero = () => {
                         ]}
                             textClassName='text-xl' className='h-10 ' />
                     </div>
-                    <a href="https://drive.google.com/file/d/1xTYk1AzYl5s9cwtUpx4Bt524_HurdDt_/view?usp=sharing" target='_blank'>
+                    <a href="https://drive.google.com/file/d/18ELKG6_hXQCWXTr-Sy8JUnbxYWcSIymK/view?usp=sharing" target='_blank'>
                         <MagicButton title="Get my Resume" icon={<FaLocationArrow />} position='right' />
                     </a>
                 </div>
