@@ -3,7 +3,7 @@ import { Spotlight } from './ui/Spotlight'
 import { cn } from '@/lib/utils'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import MagicButton from './ui/MagicButton'
-import { FaLocationArrow } from 'react-icons/fa6'
+import { FaLocationArrow, FaEnvelope } from 'react-icons/fa6'
 import { ContainerTextFlip } from './ui/ContainerTextFlip'
 
 const Hero = () => {
@@ -49,6 +49,33 @@ const Hero = () => {
                         <MagicButton title="Get my Resume" icon={<FaLocationArrow />} position='right' />
                     </a>
                 </div>
+            </div>
+
+            <div className="absolute top-10 right-5 md:right-10 z-50 flex flex-col md:flex-row gap-4">
+                <a
+                    href="https://github.com/sanket-pilane"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
+                >
+                    <img src="/github.svg" alt="github" width={20} height={20} />
+                </a>
+                <a
+                    href="https://www.linkedin.com/in/sanket-pilane/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
+                >
+                    <img src="/link.svg" alt="linkedin" width={20} height={20} />
+                </a>
+                <a
+                    href="mailto:lalitpilane7@gmail.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
+                >
+                    <FaEnvelope />
+                </a>
             </div>
         </div>
     )
